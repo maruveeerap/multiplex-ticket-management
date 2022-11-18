@@ -1,0 +1,39 @@
+#filter{
+    padding: 12px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    
+    border: 0px solid green ;
+    background-color: rgb(209, 236, 111);
+    border-collapse: collapse;
+}
+
+
+
+table td,
+table th {
+  border: 0px solid #ddd;
+  padding: 8px;
+  text-align: center;
+ 
+}
+table td{
+    background-color: rgb(109, 101, 116);
+    color: yellow;
+
+
+}
+table tr:hover {
+  background-color: #ddd;
+}
+#filter+h1{
+    text-align: center;
+    background-color: rgb(116, 72, 72);
+}
